@@ -9,23 +9,23 @@
   "hidden_dropout_prob": 0.1,
   "hidden_size": 768,
   "id2label": {
-    "0": "B-Experience_Level",
-    "1": "B-Job_role",
-    "2": "B-Skill",
-    "3": "O",
-    "4": "B-Job_Role",
-    "5": "B-Domain"
+    "0": "O",
+    "1": "B-Experience_Level",
+    "2": "B-Job_Role",
+    "3": "B-Domain",
+    "4": "B-Job_role",
+    "5": "B-Skill"
   },
   "ignore_mismatched_sizes": true,
   "initializer_range": 0.02,
   "intermediate_size": 3072,
   "label2id": {
-    "B-Domain": 5,
-    "B-Experience_Level": 0,
-    "B-Job_Role": 4,
-    "B-Job_role": 1,
-    "B-Skill": 2,
-    "O": 3
+    "B-Domain": 3,
+    "B-Experience_Level": 1,
+    "B-Job_Role": 2,
+    "B-Job_role": 4,
+    "B-Skill": 5,
+    "O": 0
   },
   "layer_norm_eps": 1e-12,
   "max_position_embeddings": 512,
